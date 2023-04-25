@@ -1,0 +1,117 @@
+body{
+    /* background-image:url(../assests/BGimages4.jpg); */
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #dad869);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #dddb6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head1::first-line{
+    color: black;
+  text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 10px;
+    /* text-shadow:  1px 1px white; */
+}
+h1{
+    text-align: center;
+}
+#maindesc{
+    color:aqua;
+    text-shadow: 1px 1px 0px rgb(8, 8, 8);
+}
+h4{
+    color: rgba(0, 0, 0, 0.415);
+    text-align: center;
+    margin-left: 22%;
+    margin-top: -24px;
+    text-shadow: 0.5px 0.5px 0.5px rgb(242, 234, 234);
+}
+p{
+    color:rgb(109, 83, 6) ;
+    text-shadow: 1px 0px rgb(2, 2, 2);
+    font-family: cursive;
+}
+ul{
+    color:rgb(109, 83, 6) ;
+    text-shadow: 1px 0px rgb(2, 2, 2);
+    font-family: cursive;
+}
+
+h5{
+    color: rgb(142, 161, 240);
+    text-shadow: 2px 2px 0px rgb(244, 209, 209);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+body {
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #009900;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-log {
+    right: auto;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.body_sec {
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 100%;
+    order: 2;
+    margin-bottom: 300px;
+    padding: 25px;
+  }
+  .text {
+    color: #CD5C5C;
+    padding-left: 20px;
+    font: italic 20px "Fira Sans", serif;
+  }

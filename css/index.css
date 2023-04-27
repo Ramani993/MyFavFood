@@ -46,10 +46,6 @@ h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
-
-
 body {
     margin: 0 auto;
     background-position: center;
@@ -105,10 +101,11 @@ footer {
     max-width: 100%
   }
   .image {
-    flex-basis: 100%;
     order: 2;
-    margin-bottom: 300px;
-    padding: 25px;
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap-reverse;
+    margin: 0px 0px 400px 75px
   }
   .text {
     color: #CD5C5C;
